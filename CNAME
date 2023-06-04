@@ -1,1 +1,3 @@
-imaginetypingthis.com
+domain = "imaginetypingthis.com"
+with open("CNAME", "w") as file:
+    file.write(domain)
